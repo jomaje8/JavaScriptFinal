@@ -1,5 +1,4 @@
 // Generic Fantasy 1
-// 
 
 // list of charecters
 alert("welcome to the wolrd of Generic Fantasy!")
