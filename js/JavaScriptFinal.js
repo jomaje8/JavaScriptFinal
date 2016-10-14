@@ -25,38 +25,33 @@ function Hero () {
     var HeroClass = prompt("Our world tends to test the strengths of our Heros. Who were you before you entered our world? (Choose from:McDonalds Worker, Prison Gaurd, Professor)").toLowerCase();
     var weapon;
     }
-time.limit
 
+Hero.name = prompt("What is your name Hero?");
 
-if (!Hero.name) {
-  Hero.name =prompt("No name? Are you sure? If you don't answer I will be forced to name you myself...Last chance. What is your name?");
+alert("We are glad to have you " + Hero.name + " as our gaurdian.");
 
-if (!Hero.name) {
-   alert("Well I told you I'd do it. Sir Buttrash it is then.");
-    character.name = "Sir Buttrash";
-  }
-}
-
-if (!Hero.name) {
-  character.name =prompt("No name? Are you sure? If you don't answer I will be forced to name you myself...Last chance. What is your name?");
-
-if (!Hero.name) {
-   alert("Well I told you I'd do it. Sir Buttrash it is then.");
-    character.name = "Sir Buttrash";
-  }
-}
-
-if (Hero.HeroClass === "McDonalds Worker") {
+switch(HeroClass) {
+    case 0:
+        prompt
+        break;
+    case 1:
+        (Hero.HeroClass === "McDonalds Worker") 
   Hero.speed = 4;
-}
+        console.log (Hero.speed)
+        break;
+    case 2:
+        (Hero.HeroClass === "Prison Gaurd") 
+  Hero.strength = 45;
+        console.log (Hero.strength)
+        break;   
+    case 3:
+        (Hero.HeroClass === "Professor")
+  Hero.health = 130;
+        console.log (Hero.health)
+        break;     
+    default:
+        (!Hero.HeroClass) 
 
-if (Hero.HeroClass === "Prison Gaurd") {
-  character.strength = 45;
-}
-
-if (Hero.HeroClass === "Professor") {
-  character.health = 130;
-}
 
 var choice =prompt("Our Hero" + Hero.HeroClass + " " + Hero.name + "does this ").toLowerCase();
 
@@ -70,24 +65,15 @@ function Monster () {
     var armor = 10;
 }
 
-var Zombie = {
-    health = 10,
-    strength = 30,
-    agility = 5,
-    armor = 5,
-}
-
-var Harrambe = {
-    health = 60,
-    stregnth = 75,
-    agility = 10,
-    armor = 10,
-}
-
+var vampire = new Monster
+var Zombie = new Monster
+var Harrambe = new Monster
 
 //List of items
 
-Hero.weapon =(CD, wrench, sword, apple, ladle, machette)
+Hero.weapon ("CD, hammer, crossbow, crusifix, sword, pain medication")
 
+alert ("Will will give you a bag of items to use to defeat your fo.")
+alert("Inside the bag you will find a CD, hammer, crossbow, crusifix, sword, and pain medication.")
 
 
